@@ -1,0 +1,94 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# A new paradigm for building R packages?
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Denver RLadies is rebooting!  Our upcoming meeting will focus on new tools that take a 'literate programming' approach to package building with proponents. 
+
+As more people getting into R package development, some have noticed that the 'package story' can sometimes get lost.  Creating and managing many files is required to build proper R packages.  But these multiple, un-ordered constituents may present an clear big-picture package narrative.  
+
+Our meeting will bring together like-minded thinkers and tool creators in this space, authors of the [{litr}](https://jacobbien.github.io/litr-project/index.html), [{fusen}](https://github.com/Thinkr-open/fusen/), and [{readme2pkg}](https://github.com/EvaMaeRey/readme2pkg.template) packages.  Each of these tools is motivated by keeping the package creation narrative in one place (an Rmarkdown file). But implementations are different.  Our meeting will allow for a comparative look at these approaches and illuminate similarities and differences. 
+
+All approaches (I believe) are indebted to:
+
+1) package building utilities developed in {devtools}, {roxygen}, and {usethis} which has made package building so much easier
+2) the {knitr} and {rmarkdown} text, code, and file manipulation functionality.  
+
+Guest presenters:
+
+- Jacob Bien:  [{litr}](https://jacobbien.github.io/litr-project/index.html)
+- Sébastien Rochette: [{fusen}](https://github.com/Thinkr-open/fusen/)
+
+Denver R-Ladies presenter:
+
+- Gina Reynolds: [{readme2pkg}](https://github.com/EvaMaeRey/readme2pkg.template)
+
+Denver RLadies:  https://www.meetup.com/rladies-denver/
+
+
+
+[R Packages: Q&A with Jenny Bryan, R4DS Online Learning Community](https://www.youtube.com/watch?v=5LktoXh7WvY)
+
+<!-- > 'finding ways to contribute to open source packages can be daunting um how do you like what what process do you have when you're first like looking at a new project that you might be involved in a new package ...' Colin -->
+
+<!-- > ... where do you start? Because i know for damn sure you don't want to open the r directory and start reading the files in alphabetical order right which is in some sense kind of feels like the most natural thing to do because you're like pretty sure that the r folder is the business end of the package and then -->
+<!-- because we're plagued by alphabetical ordering it sort of feels like maybe you should just start clicking on the files and reading them and i know that does not work very well um so at this point like when i for some reason like need to become involved in a -->
+
+> ... you know you know books are meant to be read. Right, like there's a beginning a middle and an end or like you're told it's a reference book and and it's kind of clear how to go to a particular place. Packages are not meant to be read and so it is i think fundamentally kind of awkward ...'
+
+---
+
+# New paradigm? Emerging tools... 
+
+- Jacob Bien & Patrick Vossler's 'The {litr} R package lets you write a complete R package in a single R markdown document. This enables a workflow for writing R packages that is probably very different from what you are used to.' https://jacobbien.github.io/litr-project/index.html)
+
+- '{fusen} inflates a Rmarkdown file to magically create a package.' https://thinkr-open.github.io/fusen/
+
+- {readme2pkg} Write an R package completely from your readme.Rmd. https://github.com/EvaMaeRey/readme2pkg
+
+- Yihui Xie's blog 2014-12-29' [Write An R Package Using Literate Programming Techniques](https://yihui.org/rlp/)
+
+---
+
+
+Noteworthy resources and guides to package building:
+
+- Hadley Wickham and Jennifer Bryan's [R Packages](http://r-pkgs.had.co.nz/)
+
+- Jim Hester's ['You can build a package in 20 minutes' talk](https://posit.co/resources/videos/you-can-make-a-package-in-20-minutes-jim-hester/)
+
+- My [companion guide](https://evamaerey.github.io/package_in_20_minutes/package_in_20_minutes) to Jim Hester's talk
+
+- Cosima Meyer's [How to write your own R package and publish it on CRAN](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/), and from her compiled list, more great resources I missed in my first round:
+
+- [How to develop good R packages (for open science) (Maëlle Salmon)](https://masalmon.eu/2017/12/11/goodrpackages/)
+
+- [devtools Cheat Sheet](https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf)
+
+- [Writing an R package from scratch (Hilary Parker)](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
+
+- [Your first R package in 1 hour (Shannon Pileggi)](https://www.pipinghotdata.com/talks/2020-10-25-your-first-r-package-in-1-hour/)
+
+- [R package primer (Karl Broman)](https://kbroman.org/pkg_primer/)
+
+- [Checklist for R Package (Re-)Submissions on CRAN (Saskia Otto)](https://www.marinedatascience.co/blog/2020/01/09/checklist-for-r-package-re-submissions-on-cran/)
+
+- [Continuous integration with GitHub Actions (Dean Attali )](https://deanattali.com/blog/migrating-travis-to-github/)
+
+
+- [R Packages: Q&A with Jenny Bryan, R4DS Online Learning Community](https://www.youtube.com/watch?v=5LktoXh7WvY)
+
